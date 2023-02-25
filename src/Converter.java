@@ -31,10 +31,6 @@ class Converter {
         return map.containsKey(str);
     }
 
-    boolean checkMapKey(String str) {
-        return map.containsKey(str);
-    }
-
     String getRomanFromArabic(int x) {
         String str1 = null;
         String str2 = null;
