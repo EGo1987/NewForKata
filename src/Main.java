@@ -94,7 +94,7 @@ public class Main {
                 }
                 int num1Int = converter.getIntFromStringRomanArabic(num1);
                 int num2Int = converter.getIntFromStringRomanArabic(num2);
-                if (num2Int > num1Int) {
+                if (action.equals("-")&&num2Int > num1Int) {
                     throw new Exception("в римской системе нет отрицательных чисел");
                 }
                 int resNum = calculate(num1Int, num2Int, action);
