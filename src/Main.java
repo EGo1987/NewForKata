@@ -14,6 +14,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите выражение: ");
         String expression = sc.nextLine();
+        sc.close();
         System.out.println(calc(expression));
     }
 
